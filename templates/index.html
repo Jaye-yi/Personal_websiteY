@@ -9,7 +9,8 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -44,16 +45,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#header">TOP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT ME</a>
+              <a class="nav-link" href="#about">ABOUT ME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">RESUME</a>
+              <a class="nav-link" href="#resume">RESUME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#pwork">PREFERED WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -101,15 +105,26 @@
 </div>
 </div>
 
+<!------Social icons---->
+<div class="social-icons">
+  <ul>
+    <a herf="#about"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+    <a herf="#about"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+  </ul>
+
+</div>
+
 <!----Resume---->
 <div class="resume" id="resume">
   <div class="container">
     <div class= "row">
+
+      <!-----Experience------>
       <div class="col-md-6">
-        <h3>My Experience</h3>
+        <h3 class="text-center">My Experience</h3>
         <ul class="timeline">
           <li>
-            <h4>2021 - Software Developer</h4>
+            <h4><span>2021 - </span>Software Developer</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
               Just click “Edit Text” or double click me to add your own content and make changes to the font.
               I’m a great place for you to tell a story and let your users know a little more about you
@@ -119,7 +134,7 @@
             </p>
           </li>
           <li>
-            <h4>2020 - Software Developer</h4>
+            <h4><span>2020 - </span>Software Developer</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
               Just click “Edit Text” or double click me to add your own content and make changes to the font.
               I’m a great place for you to tell a story and let your users know a little more about you
@@ -129,7 +144,7 @@
             </p>
           </li>
           <li>
-            <h4>2019 - Software Developer</h4>
+            <h4><span>2019 - </span>Software Developer</h4>
             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
               Just click “Edit Text” or double click me to add your own content and make changes to the font.
               I’m a great place for you to tell a story and let your users know a little more about you
@@ -140,11 +155,111 @@
           </li>
         </ul>
       </div>
+
+      <!-----Education------>
+      <div class="col-md-6">
+        <h3 class="text-center">Education Background</h3>
+        <ul class="timeline">
+          <li>
+            <h4><span>2020 - </span>Master of Science in Computer Science</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>University</b> Northwestern University
+            <br><b>Session</b> 2020 - 2021
+            <br><b>Location</b> Illinois, US
+            </p>
+          </li>
+          <li>
+            <h4><span>2020 - </span>Dual Master degree of Science in Information Science</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>Company</b> Cornell University
+            <br><b>Duration</b> 2020 - 2021
+            <br><b>Location</b> New York, US
+            </p>
+          </li>
+          <li>
+            <h4><span>2014 - </span>Bachor of Engineering in Digital Media Technology</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>Company</b> ZJNU
+            <br><b>Duration</b> 2014 - 2018
+            <br><b>Location</b> Zhejiang, China
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
+<!---------Prefered work-------->
 
+<div class="pwork" id="pwork">
+  <div class= "container">
+    <h1 class="text-center">My prefered work</h1>
+    <p class="text-center"> General Software Developer, Full-Stack Developer, Machine Learning Engineer</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="prefered_work">
+          <i class="fa fa-laptop" aria-hidden="true"></i><span> SDE</span>
+          <p class="details">I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="prefered_work">
+          <i class="fa fa-paint-brush" aria-hidden="true"></i><span> FSD</span>
+          <p class="details">I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="prefered_work">
+          <i class="fa fa-database" aria-hidden="true"></i><span> MLE</span>
+          <p class="details">I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-------Contact------->
+<div class="contact" id="contact">
+  <div class="container text-center">
+    <h1>Contact Me</h1> 
+    <p class="text-center"> General Software Developer, Full-Stack Developer, Machine Learning Engineer</p>
+  <div class="row">
+    <div class="col-md-4">
+      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <p>+1-123-234-2345</p>
+    </div>
+
+    <div class="col-md-4">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <p>abcdef@gmail.edu</p>
+    </div>
+
+    <div class="col-md-4">
+      <i class="fa fa-weixin" aria-hidden="true"></i>
+      <p>I82312345</p>
+    </div>
+  </div>
+  
+  <botton type="botton" class="btn btn-primary">
+    Download Resume
+  </botton>
+  </div>
+  <div class="footer text-center">
+    <p>Thank you for visiting! <i class="fa fa-heart" aria-hidden="true"></i></p>
+  </div>
+</div>
 
 </section>
 
