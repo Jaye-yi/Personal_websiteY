@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Personal Resume Web</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+
+<!--- Header ---->
+<section id="header">
+  <div class= "contatiner text-centetr">
+    <div class= "user-box">
+      <img src="http://tn.ganbi.cc/d/file/kaifadou/201903261421/2019012218035894189.jpg">
+      <h1>Elena Jyan</h1>
+      <p>Welcome to my website!</p>
+    </div>
+  </div>
+
+  <div class= "scroll-btn">
+    <div class= "scroll-bar">
+      <a herf="">
+        <span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--- User infro ---->
+<section id="user infro">
+  <div class= "nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="{{url_for('static',filename='img/icon.png')}}"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<!---about me --->
+<div class= "about container" id= "about">
+<div class= "row">
+<div class= "col-md-6 text-center">
+  <img src="http://tn.ganbi.cc/d/file/kaifadou/201903261421/2019012218035894189.jpg" class="profile-img">
+</div>
+
+<div class= "col-md-6">
+  <h3>WHO AM I?</h3>
+  <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+    Just click “Edit Text” or double click me to add your own content and make changes to the font.
+    I’m a great place for you to tell a story and let your users know a little more about you
+  </p>
+
+  <div class="skills-bar">
+    <p>Python</p>
+    <div class="progress">
+      <div class="progress-bar" style="width: 65%">65%</div>
+    </div>
+
+    <p>JavaScript, HTML, CSS</p>
+    <div class="progress">
+      <div class="progress-bar" style="width: 60%">60%</div>
+    </div>
+  
+    <p>Machine Learning</p>
+    <div class="progress">
+      <div class="progress-bar" style="width: 60%">60%</div>
+    </div>
+
+    <p>UX Design</p>
+    <div class="progress">
+      <div class="progress-bar" style="width: 50%">50%</div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!----Resume---->
+<div class="resume" id="resume">
+  <div class="container">
+    <div class= "row">
+      <div class="col-md-6">
+        <h3>My Experience</h3>
+        <ul class="timeline">
+          <li>
+            <h4>2021 - Software Developer</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>Company</b> - Oracle -
+            <br><b>Duration</b> [June to September]
+            <br><b>Location</b> Redwood California, US
+            </p>
+          </li>
+          <li>
+            <h4>2020 - Software Developer</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>Company</b> - Oracle -
+            <br><b>Duration</b> [June to September]
+            <br><b>Location</b> Redwood California, US
+            </p>
+          </li>
+          <li>
+            <h4>2019 - Software Developer</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+              Just click “Edit Text” or double click me to add your own content and make changes to the font.
+              I’m a great place for you to tell a story and let your users know a little more about you
+            <br><b>Company</b> - Oracle -
+            <br><b>Duration</b> [June to September]
+            <br><b>Location</b> Redwood California, US
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</section>
+
+</body>
+</html>

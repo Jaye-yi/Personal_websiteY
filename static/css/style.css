@@ -1,0 +1,142 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* header CSS ---*/
+#header
+{
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(199, 199, 199, 0.6)),
+  url(https://cdn.shopify.com/s/files/1/0303/0017/6443/products/PASSION_PLANTS_LITE_1920x1080_crop_center.png?v=1598545751);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.user-box
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.user-box img
+{
+  border-radius: 50%; /* a circle */
+  width: 250px;
+  border: 4mm ridge rgba(243, 183, 174, .6);
+}
+
+.user-box h1
+{
+  color: #224D4C;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+.user-box p
+{
+  color: #224D4C;
+  text-align: center;
+}
+
+.scroll-btn
+{
+  bottom: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #fff;
+  padding: 10px 10px 20px;
+  border-radius: 30px;
+}
+
+.scroll-bar span
+{
+  border: 2px solid #FFF;
+  font-size: 10px;
+  border-radius: 30px;
+}
+
+.scroll-bar
+{
+  animation: mover 1.5s infinite alternate;
+}
+@keyframes mover
+{
+  0%{transform: translateY(0);}
+  100%{transform: translateY(10px);}
+}
+
+
+/*----About----*/
+.about
+{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.profile-img
+{
+  height: 400px;
+}
+
+.nav-bar
+{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+
+.navbar
+{
+  background-color: #BED6CE;
+}
+
+.navbar-brand img
+{
+  left:15px;
+  height: 30px;
+}
+
+.nav-bar .fa-bars
+{
+  font-size: 25px;
+  color: #224D4C;
+}
+
+.navbar-nav
+{
+  float: right;
+  text-align: right;
+}
+
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 250;
+}
+
+.progress
+{
+  border-radius: 16px !important;
+  margin-bottom: 15px;
+}
+
+.progress-bar
+{
+  border-radius: 16px;
+  background: #E9BD91 !important;
+}
+
+/* resume */
+.resume{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #f9f9f9
+}
