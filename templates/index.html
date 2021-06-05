@@ -18,7 +18,7 @@
 <section id="header">
   <div class= "contatiner text-centetr">
     <div class= "user-box">
-      <img src="https://p6.itc.cn/images01/20210325/7cbc64e51cf249bcb303f7174602f083.jpeg">
+      <img src="https://p6.itc.cn/images01/20210325/7cbc64e51cf249bcb303f7174602f083.jpeg" width="250">
       <h1>Elena Jyan</h1>
       <p>Welcome to my website!</p>
     </div>
@@ -108,8 +108,8 @@
 <!------Social icons---->
 <div class="social-icons">
   <ul>
-    <a herf="#about"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
-    <a herf="#about"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+    <a herf="#about"><li onclick="linkinPage()"><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+    <a herf="#about"><li onclick="twitterPage()"><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
   </ul>
 
 </div>
@@ -252,7 +252,7 @@
     </div>
   </div>
   
-  <botton type="botton" class="btn btn-primary">
+  <botton onclick="resumelink()" type="botton" class="btn btn-primary">
     Download Resume
   </botton>
   </div>
@@ -262,6 +262,20 @@
 </div>
 
 </section>
+
+<script>
+  function resumelink() {
+    window.open("https://drive.google.com/file/d/188zi6lk5WQLfu0o8Lft6E9JwXY-EAz7W/view?usp=sharing")
+  }
+
+  function linkinPage() {
+    window.open("https://www.linkedin.com/in/yina-jian-90bb881b5/")
+  }
+
+  function twitterPage() {
+    window.open("https://twitter.com/Mia_F_Jian")
+  }
+  </script>
 
 </body>
 </html>
